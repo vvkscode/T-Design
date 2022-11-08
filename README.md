@@ -8,4 +8,4 @@
   create a folder in htdocs and open that folder in your vs code or compiler used
   Then for installing firebase open the terminal in your compiler and proceed the step by step code as follows:
    composer -V
-  next refer to the https://firebase-php.readthedocs.io/en/stable/overview.html#installation for installing firebase an connecting to the database
+  #next refer to the https://firebase-php.readthedocs.io/en/stable/overview.html#installation for installing firebase an connecting to the database
