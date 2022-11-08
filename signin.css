@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+           
+body {
+    background-image:url( "images/signin.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;     
+  }
+.logo img{
+    width:600px;
+    height:200px;
+    position: fixed;
+    top:35%;
+    left:8%;
+}       
+.row {
+    width: 100%;
+    max-width: 1000px;
+    position: fixed;
+    top:20%;
+    left:60%;
+}
+
+.colm-form .form-container {
+    background-color:rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 8px 16px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+    padding: 25px;
+    max-width: 400px;
+    height: 435px;
+    text-align: center;
+}
+.form-container h1{
+    font-size: 32px;
+}
+
+.colm-form .form-container input, .colm-form .form-container .btn-login {
+    width: 100%;
+    margin: 10px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.colm-form .form-container input {
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 0 8px;
+    outline: none;
+}
+
+.colm-form .form-container input:focus {
+    border-color: hsla(240, 3%, 35%, 0.243);
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.colm-form .form-container .btn-login {
+    background-color:  rgb(255, 130, 116);
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.colm-form .form-container .btn-login:hover{
+    background-color: rgb(247, 120, 105);
+}
+
+.colm-form .form-container a {
+    display: block;
+    color: #08090a;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+}
+
+.colm-form .form-container a:hover {
+    text-decoration: underline;
+}
+
+.colm-form .form-container .btn-new {
+    background-color: rgb(255, 130, 116);
+    border: none;
+    border-radius: 2px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: -5px; 
+}
+.colm-form .form-container .btn-new:hover{
+background-color: rgb(247, 120, 105);
+} 
+.error_msg{
+    margin:10px 0;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+span{
+    position: absolute;
+    right: 640px;
+    top: 153px;
+    cursor:pointer;
+}
+
+

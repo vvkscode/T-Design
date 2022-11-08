@@ -1,0 +1,244 @@
+.container{
+position: relative;
+bottom: 70px;
+}
+.tabs {
+  border: 1px solid #cccccc;
+  width: 450px;
+  display: flex;  
+}
+.sidebar{
+    width: 80px;
+    flex-shrink: 0;
+    background: rgb(228, 234, 234);
+}
+.tabs_button{
+    display: block;
+    padding: 7px;
+    height: 70px;
+    padding-bottom: 5px;
+    background: #eeeeee;
+    border: none;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+}
+.tabs_button p{
+    font-size: 12px;
+    color: black;
+}
+.tabs_button:active{
+    background: #dddddd;
+    color:salmon;
+}
+.sidebar  button:hover{
+    color:salmon;
+}
+.tabs_button:not(:last-of-type){
+    border-bottom: 1px solid #cccccc;
+}
+.tabs_button--active{
+    font-weight: bold;
+    border-right: 2px solid salmon;
+    background: #dddddd;
+}
+.tabs_button--active i{
+    color: salmon;
+}
+.content{
+    padding: 15px;
+    font-size: 16px;
+    display: none;
+    max-width: 500px;
+}
+.content--active{
+    display:block;
+}
+.content > :first-child{
+    margin-top: 0;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.container{
+    margin-left:20px;
+    margin-top: 100px;
+}
+
+.tabs_button i{
+    font-size: 30px;
+}
+
+.bell{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:358px;
+    height:100px;
+    padding:15px 15px;
+}
+
+.ccd{
+    width:40px;
+    height:40px;
+    border:solid 1px;
+    border-color:rgb(127, 126, 126);
+    border-radius: 2px;
+    cursor:pointer;
+    margin-right: 15px;
+}
+
+
+ .tshirtsize{
+    font-size: 17px;
+}
+ p{
+    font-size: 17px;
+    font-weight: 60;
+    text-align: center;
+    color:rgb(123, 125, 125);
+}
+
+ .span2{
+    font-size: 18px;
+}
+#art img{
+    width:100px;
+    height: auto;
+    padding-right: 10px;
+}
+#art{
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+.content .scroller {
+    width:350px;
+    height:270px;
+    margin-left: -9px;
+    padding-top: 10px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+    border: solid black 1px;
+  }
+.Upload{
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.btn-primary{
+    margin-left: 25px;
+}
+.scroller button{
+    display: block;
+    padding: 10px;
+    background: #f8f4f4;
+    border: none;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+}
+.scroller button:active{
+    background: #dddddd;
+}
+.nav-tabs--active{
+    font-weight: bold;
+    border-right: 2px solid #009879;
+    background: #dddddd;
+}
+
+.bell{
+    display: flex;
+    flex-direction: row;
+   padding: 20px;
+}
+.tell{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+#txtbx{
+    height: 30px;
+    width: 200px;
+    position: relative;
+    top: 170px;
+    left: 60px;
+}
+#add-text{
+    height: 30px;
+    width: 70px;
+    position: relative;
+    top: 210px;
+}
+#tat{
+    font-size: large;
+}
+#demo{
+    position: absolute;
+    top: 200px;
+    right: 440px;
+    font-size: 40px;
+}
+#canvas{
+    border: 2px solid;
+
+
+}
+.box {
+    float: left;
+    margin: 1em;
+  }
+.after-box {
+    clear: left;
+}
+
+#customize{
+    display:flex;
+    justify-content: space-between;
+}
+.draw{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+#canvas{
+    border-color: rgb(126, 125, 125);
+}
+#remove i{
+    font-size:25px;
+    color:black;
+}
+#remove{
+    border:1px solid black;
+    height:25px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    margin-top:40px;
+}
+#text-controls{
+    display: flex;
+    flex-direction: column;
+}
+.texttype{
+    padding:5px 5px;
+}
+#btnDisplay{
+    font-size: 20px;
+    cursor: pointer;
+    border-radius:3px;
+    height: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(252, 138, 125);
+    border:none;
+    width:100%;
+}
+#btnDisplay a{
+    color:white;
+    text-decoration: none;
+}
+#btnDisplay button:hover{
+    background-color:salmon;
+}
+#canvas{
+    border-color: rgb(190, 186, 186);
+}
