@@ -35,7 +35,7 @@ if(isset($_SESSION['bag_status'])){
         <ul id="nav">
             <li><a  href="home.php">Home</a></li>
             <li><a class="active" href="sidebar.php">Design</a></li>
-            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.php">About Us</a></li>
             <li><a href="bag.php"><i class="far fa-shopping-bag"></i></a></li>
         </ul>
         </div>
