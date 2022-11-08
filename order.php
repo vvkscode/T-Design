@@ -46,7 +46,7 @@ if(isset($_SESSION['order_status'])){
             <ul id="nav">
                 <li><a href="home.php">Home</a></li>
                 <li><a  href="sidebar.php">Design</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.php">About Us</a></li>
                 <li><a  href="bag.php"><i class="far fa-shopping-bag"></i></a></li>
                 <li><img src="images/icons/user.png" class="user-pic">
              <ul>
