@@ -239,6 +239,7 @@ else if($checpass){
 
 }
 else{
+    $_SESSION['profile_state']="old password do not match";
         header("location:editprofile.php");
         exit();
 }
